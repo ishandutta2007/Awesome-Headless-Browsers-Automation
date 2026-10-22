@@ -2,168 +2,116 @@
 
 ## Top Headless Browsers & Automation Ecosystem
 
-
-
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-
 *Focused on Browser Automation, Cross-Browser Testing & Self-Hosted Grid Infrastructure*  
-
 **Last updated: October 2026**
-
-
 
 This repository tracks notable **SaaS platforms** and **open-source projects** for **Headless Browsers & Automation**. These tools enable developers and QA teams to programmatically control browsers—running tests, scraping data, and automating workflows—without a visible UI, forming the backbone of modern CI/CD pipelines and AI agent workflows.
 
-
-
-**Examples** include Puppeteer, Playwright, Selenium, Cypress, BrowserStack, Sauce Labs, LambdaTest, and TestingBot (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, cross-browser coverage, and transparent automation infrastructure—ideal for teams that need data sovereignty, avoid per-minute cloud testing fees, and require auditable browser control. The open-source landscape is anchored by **Playwright** (the cross-browser standard with auto-waiting), **Puppeteer** (the Chrome-native automation library), **Selenium** (the W3C WebDriver foundation), and **Cypress** (the developer-experience-focused testing framework), with **Docker Selenium** providing a self-hosted version matrix for reproducible testing.
-
-
-
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
 
 ## Table of Contents
 
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
-
-
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[BrowserStack](https://www.browserstack.com/)**  
-
-  The largest real device cloud with **3,500+ real desktop and mobile browser combinations** and 30,000+ device units . Supports Selenium, Playwright, Cypress, and Puppeteer without code changes. **AI agents** for self-healing locators, test selection, and failure analysis. Entry pricing: Live from $29/month, App Automate from $199/month . Best for teams needing the broadest real-device coverage.
-
-
-
-- **[Sauce Labs](https://saucelabs.com/)**  
-
-  Enterprise continuous testing cloud with real-device and virtual browser coverage. **Pricing**: Live from $39/month, Virtual Cloud from $149/month, Real Device Cloud from $199/month (annual billing; month-to-month ~20% more) . Strong for enterprise governance and compliance requirements. Best for organizations that need real devices with enterprise-grade controls.
-
-
-
-- **[LambdaTest (TestMu AI)](https://www.lambdatest.com/)**  
-
-  **Rebranded to TestMu AI** and repositioned as AI-native quality engineering . Free tier available; paid plans from **$15/month**—the lowest-cost option among major clouds . 10,000+ real devices. Best for budget-conscious teams that still need cloud device access.
-
-
-
-- **[TestingBot](https://testingbot.com/)**  
-
-  Independent cloud testing provider with real device and browser grid access. Supports Selenium, Playwright, Puppeteer, and Cypress via WebdriverIO MCP integration . Best for teams seeking an alternative to the largest providers.
-
-
-
-- **[HeadSpin](https://www.headspin.io/)**  
-
-  Mobile and web performance testing platform with real devices and AI-driven analysis. Focuses on performance metrics and user experience rather than pure functional testing.
-
-
-
-- **[Perfecto (Perforce)](https://www.perfecto.io/)**  
-
-  Enterprise continuous testing platform with real devices and browsers. Integrates with Selenium, Appium, and CI/CD tools. Best for regulated industries requiring enterprise support.
-
-
+| Platform | Pricing Model | Free Tier & Limits | Key Highlights & Capabilities |
+| :--- | :--- | :--- | :--- |
+| **[BrowserStack](https://www.browserstack.com/)** | Paid (from $29/mo Live, $199/mo App Automate) | Free trial available (limited interactive testing minutes) | 3,500+ real desktop & mobile browsers across 30k+ devices; supports Selenium, Playwright, Cypress, Puppeteer; AI self-healing locators. |
+| **[Sauce Labs](https://saucelabs.com/)** | Paid (Live from $39/mo, Virtual Cloud from $149/mo, Real Device Cloud from $199/mo) | Free trial available (limited minutes/credits upon sign up) | Enterprise continuous testing cloud; extensive real-device and virtual browser coverage, enterprise governance, and compliance. |
+| **[LambdaTest (TestMu AI)](https://www.lambdatest.com/)** | Freemium (Paid plans from $15/mo) | Free tier available (60 mins/month of live testing, 10 mins per session) | Rebranded to TestMu AI; 10,000+ real devices and browsers; low-cost cloud grid with AI-native quality engineering features. |
+| **[TestingBot](https://testingbot.com/)** | Paid (from $50/mo for automated testing) | 14-day free trial (100 minutes of automated testing) | Independent cloud provider; real browsers and physical mobile devices; supports Selenium, Playwright, Puppeteer, Cypress, and WebdriverIO MCP. |
+| **[HeadSpin](https://www.headspin.io/)** | Enterprise / Custom pricing | Free trial / Demo upon request | Mobile and web performance testing platform powered by real devices and AI-driven quality of experience (QoE) analysis. |
+| **[Perfecto (Perforce)](https://www.perfecto.io/)** | Enterprise (Custom / Quote-based, starting ~$360/mo) | 14-day free trial available | Continuous testing cloud for web and mobile; enterprise-grade security, broad Appium and Selenium framework integrations. |
 
 ## Open-Source GitHub Projects
 
+Curated open-source projects sorted by GitHub star count in descending order:
 
+- **[Browser Use](https://github.com/browser-use/browser-use)** [![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers)  
+  Open-source Python library designed to connect AI agents to browsers. Controls browsers via accessibility trees and vision models, turning language models into autonomous web navigators.
 
-- **[Playwright](https://github.com/microsoft/playwright)**  
+- **[Playwright](https://github.com/microsoft/playwright)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)  
+  Microsoft's modern browser automation framework. Native support for Chromium, Firefox, and WebKit with a unified API across TypeScript, Python, .NET, and Java. Features auto-waiting, isolated contexts, Trace Viewer, and first-class MCP server / agent CLI tooling.
 
-  Microsoft's browser automation framework, **the current default recommendation for new cross-browser projects** . **Native support for Chromium, Firefox, and WebKit** (Safari engine) with a single API across TypeScript, Python, .NET, and Java . **Auto-waiting** eliminates artificial timeouts; web-first assertions retry until conditions are met. **Test isolation**: each test gets a fresh browser context equivalent to a new browser profile. **Trace Viewer** provides full timeline with DOM snapshots, network logs, and screenshots at every step . **MCP server** and **CLI for coding agents** enable AI-driven browser control through accessibility snapshots rather than screenshots . Best for new automation projects, cross-browser regression suites, and AI agent workflows.
+- **[Puppeteer](https://github.com/puppeteer/puppeteer)** [![GitHub stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers)  
+  Google's Node.js library for controlling Chrome and Firefox via Chrome DevTools Protocol (CDP) and WebDriver BiDi. High performance, direct protocol access for network interception, tracing, PDF generation, and Chrome-based automation.
 
+- **[Cypress](https://github.com/cypress-io/cypress)** [![GitHub stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers)  
+  Developer-friendly testing framework built for modern web applications. Runs directly inside the browser event loop with real-time reload, time-travel debugging, and automatic waiting.
 
+- **[Lightpanda](https://github.com/lightpanda-io/browser)** [![GitHub stars](https://img.shields.io/github/stars/lightpanda-io/browser?style=social&color=white)](https://github.com/lightpanda-io/browser/stargazers)  
+  Ultra-lightweight open-source headless browser written in C/Zig specifically designed for AI agents, scraping, and automation without the heavy memory overhead of full Chrome instances.
 
-- **[Puppeteer](https://github.com/puppeteer/puppeteer)**  
+- **[changedetection.io](https://github.com/dgtlmoon/changedetection.io)** [![GitHub stars](https://img.shields.io/github/stars/dgtlmoon/changedetection.io?style=social&color=white)](https://github.com/dgtlmoon/changedetection.io/stargazers)  
+  Self-hosted website change detection and notification monitoring system using Playwright and WebDriver for full dynamic JavaScript page rendering and visual diff inspection.
 
-  Google's Node.js library for controlling Chrome and Firefox via DevTools Protocol and WebDriver BiDi . **Chrome-native performance** with direct CDP access for network interception, performance monitoring, and device emulation. **Firefox support is experimental** via BiDi—not the primary target . JavaScript/TypeScript only. **Lighter than Playwright** but narrower scope: no WebKit, no multi-language support. Best for Chrome-focused automation, Node.js stacks, and scraping tasks where Chrome is the target.
+- **[Selenium](https://github.com/SeleniumHQ/selenium)** [![GitHub stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)  
+  The foundational W3C WebDriver standard for browser automation. Offers the broadest multi-language support (Java, Python, C#, JavaScript, Ruby) and the ability to drive real retail-installed browsers across heterogeneous OS environments.
 
+- **[Crawlee](https://github.com/apify/crawlee)** [![GitHub stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers)  
+  Web scraping and browser automation library for Node.js and Python by Apify. Provides unified abstractions over Playwright, Puppeteer, and HTTP clients with built-in proxy rotation, session pools, and anti-blocking features.
 
+- **[Stagehand](https://github.com/browserbase/stagehand)** [![GitHub stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social&color=white)](https://github.com/browserbase/stagehand/stargazers)  
+  AI web browsing SDK built on top of Playwright by Browserbase. Allows LLMs to perform browser automation with three intuitive primitives: `act`, `extract`, and `observe`.
 
-- **[Selenium](https://github.com/SeleniumHQ/selenium)**  
+- **[Skyvern](https://github.com/Skyvern-AI/skyvern)** [![GitHub stars](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social&color=white)](https://github.com/Skyvern-AI/skyvern/stargazers)  
+  Automates browser-based workflows using AI and computer vision. Interacts with complex, dynamic websites without relying on brittle XPath or CSS selectors.
 
-  The W3C WebDriver standard—**the oldest and most widely deployed** browser automation framework . **Broadest language support**: Java, Python, C#, Ruby, JavaScript, PHP, and more. **Unique capability**: can drive an **actual retail-installed browser** rather than a framework-maintained build—relevant if you must test exactly what users have installed . **Selenium Grid 4.41** improved Distributor robustness with WebSocket counter fixes and deadlock prevention . **Docker Selenium** ships **167+ image variants** across Chrome, Edge, and Firefox (versions 95–148) for reproducible testing against specific browser versions . Best for legacy suites, mixed-language teams, and testing against retail browser installations.
+- **[Automa](https://github.com/AutomaApp/automa)** [![GitHub stars](https://img.shields.io/github/stars/AutomaApp/automa?style=social&color=white)](https://github.com/AutomaApp/automa/stargazers)  
+  Open-source browser extension for automating repetitive web tasks. Build automation workflows visually by connecting drag-and-drop functional blocks.
 
+- **[Nanobrowser](https://github.com/nanobrowser/nanobrowser)** [![GitHub stars](https://img.shields.io/github/stars/nanobrowser/nanobrowser?style=social&color=white)](https://github.com/nanobrowser/nanobrowser/stargazers)  
+  Open-source Chrome extension for AI-powered web automation. Runs locally with your own LLM API keys without requiring cloud subscriptions.
 
+- **[Browserless](https://github.com/browserless/browserless)** [![GitHub stars](https://img.shields.io/github/stars/browserless/browserless?style=social&color=white)](https://github.com/browserless/browserless/stargazers)  
+  Dockerized headless browser infrastructure for running Chrome, Playwright, and Puppeteer at scale. Manages resource limits, connection pooling, and remote browser endpoints via standard WebSocket protocols.
 
-- **[Cypress](https://github.com/cypress-io/cypress)**  
+- **[chromedp](https://github.com/chromedp/chromedp)** [![GitHub stars](https://img.shields.io/github/stars/chromedp/chromedp?style=social&color=white)](https://github.com/chromedp/chromedp/stargazers)  
+  Faster, simpler-to-deploy Go-native library for driving browsers supporting the Chrome DevTools Protocol without external dependencies like Node.js or Selenium.
 
-  Developer-experience-first testing framework with time-travel debugging and automatic screenshots. **Not designed for cross-origin scraping or multi-tab flows**—it runs inside the browser's loop and is purpose-built for testing applications you control . JavaScript/TypeScript only. Best for fast-feedback testing of single-page apps during active development.
+- **[WebdriverIO](https://github.com/webdriverio/webdriverio)** [![GitHub stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers)  
+  Next-generation browser and mobile automation test framework for Node.js. Supports both WebDriver and Chrome DevTools protocols, component testing, and cloud grid integrations.
 
+- **[OpenBrowser](https://github.com/ntegrals/openbrowser)** [![GitHub stars](https://img.shields.io/github/stars/ntegrals/openbrowser?style=social&color=white)](https://github.com/ntegrals/openbrowser/stargazers)  
+  Python library for AI-agent browser automation supporting multi-LLM backends (OpenAI, Anthropic, Google, and local models via Ollama).
 
+- **[Docker Selenium](https://github.com/SeleniumHQ/docker-selenium)** [![GitHub stars](https://img.shields.io/github/stars/SeleniumHQ/docker-selenium?style=social&color=white)](https://github.com/SeleniumHQ/docker-selenium/stargazers)  
+  Official containerized Selenium Grid infrastructure providing multi-browser standalone and node images across Chrome, Firefox, and Edge with built-in VNC capabilities.
 
-- **[Docker Selenium](https://github.com/SeleniumHQ/docker-selenium)**  
+- **[puppeteer-extra](https://github.com/berstend/puppeteer-extra)** [![GitHub stars](https://img.shields.io/github/stars/berstend/puppeteer-extra?style=social&color=white)](https://github.com/berstend/puppeteer-extra/stargazers)  
+  Modular plugin framework for Puppeteer and Playwright, famous for `puppeteer-extra-plugin-stealth` which applies anti-detection patches to pass bot checks.
 
-  Containerized Selenium Grid and standalone browser images. **Version matrix**: 167+ image variants spanning Chrome, Chrome for Testing, Edge, and Firefox versions 95–148, each with matching driver versions . **Use cases**: reproduce bugs on specific browser versions, run cross-version compatibility sweeps in CI, and pin test environments against auto-updates. **Fluxbox desktop** with right-click browser launchers for interactive VNC debugging . Best for self-hosted grid infrastructure and reproducible browser testing.
+- **[Rod](https://github.com/go-rod/rod)** [![GitHub stars](https://img.shields.io/github/stars/go-rod/rod?style=social&color=white)](https://github.com/go-rod/rod/stargazers)  
+  High-level Go library for DevTools Protocol automation and web scraping, designed for ergonomics, high concurrency, and fine-grained network control.
 
+- **[Selenoid](https://github.com/aerokube/selenoid)** [![GitHub stars](https://img.shields.io/github/stars/aerokube/selenoid?style=social&color=white)](https://github.com/aerokube/selenoid/stargazers)  
+  Blazing fast Golang implementation of the Selenium hub that launches isolated browsers inside Docker containers per test session.
 
-
-### Additional Strong Open-Source Options
-
-
-
-- **WebdriverIO** — Node.js test automation framework with full WebDriver protocol control and MCP server support for cloud providers (BrowserStack, Sauce Labs, TestMu, TestingBot) . Best for teams needing fine-grained browser control with cloud integration.
-
-- **Nanobrowser** — Open-source Chrome extension for AI-powered web automation. Runs locally with your own API keys, no subscription fees . Best for privacy-focused browser automation without cloud dependency.
-
-- **OpenBrowser** — Python library for AI-agent browser automation with multi-LLM provider support (OpenAI, Anthropic, Google, local Ollama) . Best for developers building custom AI browser agents.
-
-- **Frameworks for building custom systems**: Use **Playwright** as the primary automation engine for cross-browser coverage and AI agent workflows. Use **Puppeteer** for Chrome-specific performance-critical scraping. Use **Selenium Grid** with **Docker Selenium** when you need to test against retail browser installations or specific version matrices. For cloud scale, run Playwright or Selenium tests against **BrowserStack** or **LambdaTest** rather than managing your own device lab.
-
-
+- **[Alpine Chrome](https://github.com/jlandure/alpine-chrome)** [![GitHub stars](https://img.shields.io/github/stars/jlandure/alpine-chrome?style=social&color=white)](https://github.com/jlandure/alpine-chrome/stargazers)  
+  Extremely small Docker image (~50MB compressed) running headless Chromium on Alpine Linux, optimized for CI/CD, serverless containers, and cloud scraping.
 
 ## How to Contribute
 
-
-
 1. Fork the repo.
-
 2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
+3. Include: name, link, star badge, 1–2 sentence description, and whether it's SaaS or open-source.
 4. Submit PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
-
-
 ## Disclaimer
 
-
-
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Playwright vs Puppeteer**: Playwright covers Chromium, Firefox, and WebKit with multi-language support; Puppeteer is Chrome-first, Node.js-only, and lighter . Choose based on whether you need true cross-browser coverage or Chrome-specific performance.
-
-- **None of these tools are designed to evade bot detection**: all present recognizable automation signals (`navigator.webdriver`, CDP-visible properties). Picking one over another does not change this—it's a separate axis from testing tool selection .
-
-- **Cloud testing costs scale with concurrency and real-device access**: entry prices are low, but parallel slots and real devices quickly increase total cost. Self-hosted grids avoid per-minute fees but require infrastructure management .
-
-
+- **Playwright vs Puppeteer**: Playwright covers Chromium, Firefox, and WebKit with multi-language support; Puppeteer is Chrome-first, Node.js-only, and lighter. Choose based on whether you need true cross-browser coverage or Chrome-specific performance.
+- **None of these tools are designed to evade bot detection**: all present recognizable automation signals (`navigator.webdriver`, CDP-visible properties). Picking one over another does not change this—it's a separate axis from testing tool selection.
+- **Cloud testing costs scale with concurrency and real-device access**: entry prices are low, but parallel slots and real devices quickly increase total cost. Self-hosted grids avoid per-minute fees but require infrastructure management.
 
 ---
 
-
-
 **Made for QA engineers, automation developers, and teams building reliable browser-based workflows.**  
-
 Let's make browser automation more open, cross-platform, and accessible.
