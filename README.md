@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Headless-Browsers-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Headless-Browsers-Automation?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Headless-Browsers-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Headless-Browsers-Automation?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Headless-Browsers-Automation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Headless-Browsers-Automation?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Headless-Browsers-Automation/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Headless-Browsers-Automation?style=flat-square" alt="Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Headless-Browsers-Automation/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Headless-Browsers-Automation?style=flat-square" alt="License" /></a>
@@ -62,69 +62,69 @@ The table below lists leading commercial SaaS and cloud-hosted browser automatio
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source headless browser engines, automation libraries, and agent frameworks, ordered by **GitHub Stars in descending order**:
+Curated open-source headless browser engines, automation libraries, and agent frameworks, ordered by **GitHub_Stars in descending order**:
 
-- **[Browser Use](https://github.com/browser-use/browser-use)** [![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers)  
+- **[Browser Use](https://github.com/browser-use/browser-use)** [![GitHub_Stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers)  
   🤖 Open-source Python library connecting AI agents to browsers. Controls web interfaces using accessibility tree snapshots and vision models for reliable agent workflows.
 
-- **[Playwright](https://github.com/microsoft/playwright)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)  
+- **[Playwright](https://github.com/microsoft/playwright)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)  
   🎭 Microsoft's flagship cross-browser automation framework. Native support for Chromium, Firefox, and WebKit across TypeScript, Python, .NET, and Java with auto-waiting and Trace Viewer.
 
-- **[Puppeteer](https://github.com/puppeteer/puppeteer)** [![GitHub stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers)  
+- **[Puppeteer](https://github.com/puppeteer/puppeteer)** [![GitHub_Stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers)  
   🎪 Google's Node.js library for controlling Chromium and Firefox via Chrome DevTools Protocol (CDP) and WebDriver BiDi. High performance for PDF generation, tracing, and scraping.
 
-- **[Cypress](https://github.com/cypress-io/cypress)** [![GitHub stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers)  
+- **[Cypress](https://github.com/cypress-io/cypress)** [![GitHub_Stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers)  
   🌲 Fast, easy, and reliable end-to-end testing framework for web applications running directly inside the browser execution loop.
 
-- **[Lightpanda](https://github.com/lightpanda-io/browser)** [![GitHub stars](https://img.shields.io/github/stars/lightpanda-io/browser?style=social&color=white)](https://github.com/lightpanda-io/browser/stargazers)  
+- **[Lightpanda](https://github.com/lightpanda-io/browser)** [![GitHub_Stars](https://img.shields.io/github/stars/lightpanda-io/browser?style=social&color=white)](https://github.com/lightpanda-io/browser/stargazers)  
   🐼 Ultra-lightweight open-source headless browser built in C and Zig for AI agents and web scraping, consuming a fraction of the RAM of standard Chrome instances.
 
-- **[changedetection.io](https://github.com/dgtlmoon/changedetection.io)** [![GitHub stars](https://img.shields.io/github/stars/dgtlmoon/changedetection.io?style=social&color=white)](https://github.com/dgtlmoon/changedetection.io/stargazers)  
+- **[changedetection.io](https://github.com/dgtlmoon/changedetection.io)** [![GitHub_Stars](https://img.shields.io/github/stars/dgtlmoon/changedetection.io?style=social&color=white)](https://github.com/dgtlmoon/changedetection.io/stargazers)  
   🔍 Self-hosted website change detection, monitoring, and alerting system using Playwright and WebDriver for dynamic JavaScript rendering.
 
-- **[Selenium](https://github.com/SeleniumHQ/selenium)** [![GitHub stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)  
+- **[Selenium](https://github.com/SeleniumHQ/selenium)** [![GitHub_Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)  
   ⚡ The foundational W3C WebDriver standard for browser automation. Offers the widest language support (Java, Python, C#, JS, Ruby) and drives retail browser installations.
 
-- **[Crawlee](https://github.com/apify/crawlee)** [![GitHub stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers)  
+- **[Crawlee](https://github.com/apify/crawlee)** [![GitHub_Stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers)  
   🕷️ Web scraping and browser automation library for Node.js and Python by Apify. Provides unified abstractions over Playwright and Puppeteer with built-in proxy and fingerprint rotation.
 
-- **[Stagehand](https://github.com/browserbase/stagehand)** [![GitHub stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social&color=white)](https://github.com/browserbase/stagehand/stargazers)  
+- **[Stagehand](https://github.com/browserbase/stagehand)** [![GitHub_Stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social&color=white)](https://github.com/browserbase/stagehand/stargazers)  
   🦾 AI web browsing SDK built on Playwright by Browserbase. Automates actions with three simple primitives: `act`, `extract`, and `observe`.
 
-- **[Skyvern](https://github.com/Skyvern-AI/skyvern)** [![GitHub stars](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social&color=white)](https://github.com/Skyvern-AI/skyvern/stargazers)  
+- **[Skyvern](https://github.com/Skyvern-AI/skyvern)** [![GitHub_Stars](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social&color=white)](https://github.com/Skyvern-AI/skyvern/stargazers)  
   🧠 Automates browser-based workflows using AI and computer vision, navigating dynamic websites without requiring hard-coded CSS or XPath selectors.
 
-- **[Automa](https://github.com/AutomaApp/automa)** [![GitHub stars](https://img.shields.io/github/stars/AutomaApp/automa?style=social&color=white)](https://github.com/AutomaApp/automa/stargazers)  
+- **[Automa](https://github.com/AutomaApp/automa)** [![GitHub_Stars](https://img.shields.io/github/stars/AutomaApp/automa?style=social&color=white)](https://github.com/AutomaApp/automa/stargazers)  
   🧩 Open-source Chrome and Firefox extension for automating web tasks via a visual drag-and-drop workflow builder.
 
-- **[Nanobrowser](https://github.com/nanobrowser/nanobrowser)** [![GitHub stars](https://img.shields.io/github/stars/nanobrowser/nanobrowser?style=social&color=white)](https://github.com/nanobrowser/nanobrowser/stargazers)  
+- **[Nanobrowser](https://github.com/nanobrowser/nanobrowser)** [![GitHub_Stars](https://img.shields.io/github/stars/nanobrowser/nanobrowser?style=social&color=white)](https://github.com/nanobrowser/nanobrowser/stargazers)  
   🛡️ Open-source Chrome extension for local, privacy-focused AI web automation using your own LLM API keys with no external subscriptions.
 
-- **[Browserless](https://github.com/browserless/browserless)** [![GitHub stars](https://img.shields.io/github/stars/browserless/browserless?style=social&color=white)](https://github.com/browserless/browserless/stargazers)  
+- **[Browserless](https://github.com/browserless/browserless)** [![GitHub_Stars](https://img.shields.io/github/stars/browserless/browserless?style=social&color=white)](https://github.com/browserless/browserless/stargazers)  
   🐳 Dockerized headless browser infrastructure for running Chrome, Playwright, and Puppeteer workloads at scale via WebSocket endpoints.
 
-- **[chromedp](https://github.com/chromedp/chromedp)** [![GitHub stars](https://img.shields.io/github/stars/chromedp/chromedp?style=social&color=white)](https://github.com/chromedp/chromedp/stargazers)  
+- **[chromedp](https://github.com/chromedp/chromedp)** [![GitHub_Stars](https://img.shields.io/github/stars/chromedp/chromedp?style=social&color=white)](https://github.com/chromedp/chromedp/stargazers)  
   🏎️ Fast, dependency-free Go library for driving Chrome and Chromium via DevTools Protocol without Node.js or Selenium.
 
-- **[WebdriverIO](https://github.com/webdriverio/webdriverio)** [![GitHub stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers)  
+- **[WebdriverIO](https://github.com/webdriverio/webdriverio)** [![GitHub_Stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers)  
   🔌 Next-gen browser and mobile automation framework for Node.js supporting WebDriver, CDP, component testing, and MCP servers.
 
-- **[OpenBrowser](https://github.com/ntegrals/openbrowser)** [![GitHub stars](https://img.shields.io/github/stars/ntegrals/openbrowser?style=social&color=white)](https://github.com/ntegrals/openbrowser/stargazers)  
+- **[OpenBrowser](https://github.com/ntegrals/openbrowser)** [![GitHub_Stars](https://img.shields.io/github/stars/ntegrals/openbrowser?style=social&color=white)](https://github.com/ntegrals/openbrowser/stargazers)  
   🐍 Python library for AI-agent browser navigation supporting OpenAI, Anthropic, Google Gemini, and local models via Ollama.
 
-- **[Docker Selenium](https://github.com/SeleniumHQ/docker-selenium)** [![GitHub stars](https://img.shields.io/github/stars/SeleniumHQ/docker-selenium?style=social&color=white)](https://github.com/SeleniumHQ/docker-selenium/stargazers)  
+- **[Docker Selenium](https://github.com/SeleniumHQ/docker-selenium)** [![GitHub_Stars](https://img.shields.io/github/stars/SeleniumHQ/docker-selenium?style=social&color=white)](https://github.com/SeleniumHQ/docker-selenium/stargazers)  
   📦 Containerized Selenium Grid images offering Chrome, Edge, and Firefox versions with VNC support for self-hosted test execution.
 
-- **[puppeteer-extra](https://github.com/berstend/puppeteer-extra)** [![GitHub stars](https://img.shields.io/github/stars/berstend/puppeteer-extra?style=social&color=white)](https://github.com/berstend/puppeteer-extra/stargazers)  
+- **[puppeteer-extra](https://github.com/berstend/puppeteer-extra)** [![GitHub_Stars](https://img.shields.io/github/stars/berstend/puppeteer-extra?style=social&color=white)](https://github.com/berstend/puppeteer-extra/stargazers)  
   🥷 Modular plugin framework for Puppeteer and Playwright, featuring stealth plugins to evade bot-detection heuristics.
 
-- **[Rod](https://github.com/go-rod/rod)** [![GitHub stars](https://img.shields.io/github/stars/go-rod/rod?style=social&color=white)](https://github.com/go-rod/rod/stargazers)  
+- **[Rod](https://github.com/go-rod/rod)** [![GitHub_Stars](https://img.shields.io/github/stars/go-rod/rod?style=social&color=white)](https://github.com/go-rod/rod/stargazers)  
   🎣 High-performance Go library for DevTools Protocol automation and high-concurrency web scraping.
 
-- **[Selenoid](https://github.com/aerokube/selenoid)** [![GitHub stars](https://img.shields.io/github/stars/aerokube/selenoid?style=social&color=white)](https://github.com/aerokube/selenoid/stargazers)  
+- **[Selenoid](https://github.com/aerokube/selenoid)** [![GitHub_Stars](https://img.shields.io/github/stars/aerokube/selenoid?style=social&color=white)](https://github.com/aerokube/selenoid/stargazers)  
   ⚡ Lightweight Go implementation of the Selenium hub launching isolated browsers inside Docker containers per test.
 
-- **[Alpine Chrome](https://github.com/jlandure/alpine-chrome)** [![GitHub stars](https://img.shields.io/github/stars/jlandure/alpine-chrome?style=social&color=white)](https://github.com/jlandure/alpine-chrome/stargazers)  
+- **[Alpine Chrome](https://github.com/jlandure/alpine-chrome)** [![GitHub_Stars](https://img.shields.io/github/stars/jlandure/alpine-chrome?style=social&color=white)](https://github.com/jlandure/alpine-chrome/stargazers)  
   🪶 Ultra-compact Docker image (~50MB compressed) running headless Chromium on Alpine Linux for serverless environments.
 
 ---
@@ -135,7 +135,7 @@ Contributions, suggestions, and corrections are warmly welcomed! 🌟
 
 1. **Fork** the repository on GitHub.
 2. **Add or edit** entries in [`README.md`](./README.md) following the established table or list format.
-3. Ensure every open-source repository includes a star badge (`style=social&color=white`) linking to its stargazers page.
+3. Ensure every open-source repository includes a Stars_Badge (`style=social&color=white`) linking to its stargazers page.
 4. Keep all descriptions factual, objective, and link directly to official project repositories or homepages.
 5. **Submit a Pull Request** with a concise summary of your addition.
 
@@ -171,3 +171,12 @@ Thank you so much for exploring and using this curated directory! 🌟 If this r
 <p align="center">
   <b>Made with ❤️ for QA engineers, automation developers, and AI agent builders.</b>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Headless-Browsers-Automation&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Headless-Browsers-Automation_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Headless-Browsers-Automation_growth.svg">
+  </picture>
+</a>
