@@ -128,7 +128,7 @@ Curated open-source headless browser engines, automation libraries, and agent fr
   🪶 Ultra-compact Docker image (~50MB compressed) running headless Chromium on Alpine Linux for serverless environments.
 
 - **[agent-qa](https://github.com/vostride/agent-qa)** [![GitHub_Stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social&color=white)](https://github.com/vostride/agent-qa/stargazers)<br>
-  🧪 AI-powered web QA with natural-language user journeys, screenshot evidence, persistent memidex memory, and evidence-gated self-improvement. [Website](https://vostride.com) · [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md).
+  🧪 AI-powered web QA with natural-language user journeys, screenshot evidence, persistent memidex memory, and evidence-gated self-improvement. [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md).
 
 ---
 
